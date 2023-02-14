@@ -1,0 +1,182 @@
+body {
+    width: 1200px;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+}
+
+main {
+    margin-left: 150px;
+    margin-top: 78px;
+}
+
+.form-section {
+    width: 900px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gender-radio-buttons {
+    width: 500px;
+    height: 56px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.skills-checkboxes {
+    width: 500px;
+    height: 56px;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.male-section,
+.female-section,
+.html-checkbox-section,
+.css-checkbox-section,
+.javascript-checkbox-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+h1 {
+    height: 96px;
+    font-size: 64px;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    margin: 0;
+    font-weight: bold;
+    /* width: 270px; */
+    height: 24px;
+    font-size: 32px;
+    line-height: 24px;
+    color: #000000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select {
+    margin: 0;
+    padding: 4px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 56px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+  }
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 64px;
+    height: 24px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #000000;
+    margin: 0px;
+}
+
+label[for="male"],
+label[for="female"] {
+    margin: 0px;
+width: 64px;
+height: 24px;
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height, or 100% */
+color: #000000;
+}
+
+label[for="html"],
+label[for="css"],
+label[for="javascript"] {
+    
+    width: 64px;
+    height: 24px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    /* identical to box height, or 100% */
+    color: #000000;
+}
+
+input::placeholder {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 16px;
+    top: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+option[value=""] {
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 16px;
+    top: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+button[type="submit"] {
+    width: 500px;
+    height: 56px;
+    margin-left: 400px;
+    background: #155EEF;
+    border-radius: 4px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+}

@@ -1,0 +1,95 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Browser</title>
+</head>
+
+<body>
+  <main>
+    <h1>Contact Form</h1>
+    <form>
+    <div class="form-section">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name">
+    </div>
+    <div class="form-section">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username">
+    </div>
+    <div class="form-section">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+    </div>
+    <div class="form-section">
+      <label for="retype-password">Re-type Password:</label>
+      <input type="password" id="retype-password" name="retype-password" placeholder="Re-enter your password">
+    </div>
+    <div class="form-section">
+      <label for="gender">Gender:</label>
+      <div class="gender-radio-buttons">
+        <div class="male-section">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+        </div>
+        <div class="female-section">
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-section">
+      <label for="techie-skills">Techie Skills:</label>
+      <div class="skills-checkboxes">
+        <div class="html-checkbox-section">
+            <input type="checkbox" id="html" name="techie-skills" value="html">
+            <label for="html">HTML</label>
+        </div>
+        <div class="css-checkbox-section">
+            <input type="checkbox" id="css" name="techie-skills" value="css">
+            <label for="css">CSS</label>
+        </div>
+        <div class="javascript-checkbox-section">
+            <input type="checkbox" id="javascript" name="techie-skills" value="javascript">
+            <label for="javascript">JavaScript</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-section">
+      <label for="phone-number">Phone Number:</label>
+      <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number">
+    </div>
+    <div class="form-section">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+    </div>
+    <div class="form-section">
+      <label for="college">College:</label>
+      <select id="college" name="college">
+        <option value="" disabled selected>Select your option</option>
+        <option value="mit">MIT</option>
+        <option value="harvard">Harvard</option>
+        <option value="stanford">Stanford</option>
+      </select>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+    </main>
+</body>
+
+</html>
